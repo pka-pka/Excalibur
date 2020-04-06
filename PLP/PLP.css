@@ -1,0 +1,125 @@
+body{
+    background-image: url(pic/BGP.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.all{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1250px;
+    height: 720 px;
+}
+.left{   
+    margin-top: -37px;
+    height: 720px;
+    width: 312px;
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.choose button{
+    height: 45px;
+    width: 145px;
+    background-color: #d86e93;
+    outline: none;
+    border-color: lightgoldenrodyellow;
+    border-radius: 13px;
+    border-style: dotted;
+    font-style: 方正雅黑;
+    font-size: 17px;
+    color: rgb(255, 231, 234);
+}
+.choose a{
+    margin-left: 37px;
+    display: block;
+    font-style: 方正雅黑;
+    font-size: 15px;
+    font-weight: 530;
+    text-decoration: none;
+    color: #469b97;
+}
+.choose a:hover{
+    color:lightgoldenrodyellow ;
+}
+.yt{
+    margin-left: -79px;
+    width: 300px;
+    height: 300px;
+    /* background-image:url("/Web/PLP/pic/1.jpg"); */
+}
+.st{
+    margin-left: 23px;
+    height: 45px;
+    width: 91px;
+    background-color: #d86e93;
+    font-size: 17px;
+    border-radius: 13px;
+    border-style: dotted;
+    outline: none;
+    color: rgb(255, 231, 234);
+    border-color: lightgoldenrodyellow;
+}
+.time{
+    color:#961d45;
+    font-weight: 500;
+    font-style: 方正雅黑;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    /* float: right; */
+    height: 720px;
+    width: 930px;
+    margin-top: 27px;
+}
+.p{
+    height: 650px;
+    width: 650px;
+    border-collapse:collapse;
+}
+.mid{
+    left: 50%;
+    top:50%;
+    width: 700px;
+    height: 430px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+    /* background: rgb(red, rgb(245, 247, 245), rgb(224, 224, 230),0.3); */
+    align-items: center;
+    opacity: 0.7;
+    transform: translate(-50%,-70%);
+}
+.endpic{
+    width: 310px;
+    height: 310px;
+    background-color: lightcoral; 
+}
+.txt{
+    height: 27px;
+    margin-top: 9px;
+    text-align: center;
+    color:#961d45;
+    font-style: 方正雅黑;
+    font-size: 17px;
+}
+.rst button{
+    height: 50px;
+    width: 260px;
+    background-color: #d86e93;
+    outline: none;
+    border-color: #961d45;
+    border-radius: 13px;
+    border-style: dotted;
+    font-style: 方正雅黑;
+    font-size: 17px;
+    color: rgb(255, 231, 234);
+}
+
+    
+
